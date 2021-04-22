@@ -17,7 +17,7 @@
 
 ## :books: General info
 
-* tba
+* to follow
 
 ## :signal_strength: Technologies
 
