@@ -1,6 +1,6 @@
 # :zap: Spring Java Angular Interface
 
-* Angular client with Java Spring boot back-end used to display simple list of users
+* Angular client with Java Spring boot back-end used to display simple list of data
 
 **\* Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -21,9 +21,17 @@
 
 ## :signal_strength: Technologies
 
+**Backend**
 * [Angular framework v11](https://angular.io/)
 * [Spring project initialiser](https://start.spring.io/) & [Spring Java Tools v4](https://spring.io/tools)
 * [Apache Maven v3 build process management](https://maven.apache.org/what-is-maven.html)
+* [Postman API platform](https://www.postman.com/)
+* [MySQL](https://dev.mysql.com/) Workbench
+* [Java assertions library](https://assertj.github.io/doc/) including assertThat()
+
+**Frontend**
+* [STOMP](https://stomp-js.github.io/stomp-websocket/codo/extra/docs-src/Usage.md.html) Simple (or Streaming) Text Oriented Messaging Protocol. 
+* [STOMP over WebSocket client](https://www.npmjs.com/package/@stomp/stompjs)
 
 ## :camera: Screenshots
 
@@ -31,12 +39,12 @@
 
 ## :floppy_disk: Setup
 
-* Backend: change directory to `/springboot-backend` and run java code
-* Frontend: run `ng serve` from `/angular-frontend`
+* Backend: change directory to `/modules/backend` and run java code
+* Frontend: change directory to `/modules/frontend`, run `npm i` then run `ng serve`
 
 ## :computer: Code Examples
 
-* `UserController` class to get a list of all users
+* tba
 
 ```java
 
@@ -49,7 +57,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: In work
-* To-Do: Nothing
+* To-Do: Complete and test
 
 ## :clap: Inspiration - YouTube series by [Lilium Code](https://www.youtube.com/channel/UCHu8fdv3oIxYOVr9e92AxYQ)
 
