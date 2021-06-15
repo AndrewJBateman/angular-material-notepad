@@ -1,8 +1,12 @@
 # :zap: Spring Java Angular Interface
 
 * Angular client with Java Spring boot back-end used to display simple list of data
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**\* Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/java-angular-data?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/java-angular-data?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/java-angular-data?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/java-angular-data?style=plastic)
 
 ## :page_facing_up: Table of contents
 
