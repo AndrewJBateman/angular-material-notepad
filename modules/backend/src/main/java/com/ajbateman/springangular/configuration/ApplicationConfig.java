@@ -7,7 +7,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableJpaRepositories("com.ajbateman.springangular.repository")
-//@EnableJpaRepositories(repositoryBaseClass = DistributedRepositoryImpl.class)
 public class ApplicationConfig implements WebMvcConfigurer {
 
     @Override
