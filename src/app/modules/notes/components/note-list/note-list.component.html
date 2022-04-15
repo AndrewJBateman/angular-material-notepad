@@ -1,0 +1,29 @@
+<mat-accordion class="accordion" multi="true" *ngIf="notes.length > 0">
+  <mat-expansion-panel *ngFor="let note of notes">
+    <mat-action-row>
+      <button mat-button color="primary">EDIT</button>
+      <button (click)="deleteEvent(note.id)" mat-button color="warning">
+        DELETE
+      </button>
+    </mat-action-row>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <p>{{ note.title }}</p>
+      </mat-panel-title>
+      <mat-panel-description>
+        {{ note.description }}
+        <button
+          class="userButton"
+          mat-button
+          (click)="$event.stopPropagation()"
+        >
+          <mat-icon>account_circle</mat-icon>
+        </button>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>{{ note.body }}</p>
+  </mat-expansion-panel>
+</mat-accordion>
+<h3 class="info-text mat-body-1" *ngIf="notes.length <= 0">
+  No notes added yet
+</h3>

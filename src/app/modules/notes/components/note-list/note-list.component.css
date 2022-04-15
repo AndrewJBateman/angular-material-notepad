@@ -1,0 +1,29 @@
+.info-text {
+  text-align: center;
+}
+
+.accordion .mat-expansion-panel-header-title,
+.accordion .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+mat-expansion-panel-header .mat-content {
+  justify-content: flex-start;
+}
+.accordion mat-panel-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion * {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+  mat-expansion-panel-header {
+    padding: 3em 1em;
+  }
+  * {
+    font-size: small;
+  }
+}

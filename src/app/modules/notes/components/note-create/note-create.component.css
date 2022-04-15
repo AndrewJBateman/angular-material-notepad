@@ -1,0 +1,11 @@
+mat-card {
+  margin-bottom: 1.5em;
+}
+
+mat-form-field, textarea {
+  width: 100%;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+}

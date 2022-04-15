@@ -1,0 +1,11 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "django.snippets.exclude": [
+  
+    "cms",
+    "wagtail"
+  ]
+}

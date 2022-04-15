@@ -1,20 +1,20 @@
-# :zap: Spring Java Angular Data
+# :zap: Angular Tailwind Notepad
 
-* Angular client with Java Spring boot back-end used to display simple list of data
+* Angular used with Material & Tailwind components to display and add notes in a table
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/java-angular-data?style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/java-angular-data?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/java-angular-data?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/java-angular-data?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-tailwind-notepad?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-tailwind-notepad?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-tailwind-notepad?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-tailwind-notepad?style=plastic)
 
 ## :page_facing_up: Table of contents
 
-* [Java Angular Data](#java-angular-data)
+* [:zap: Angular Tailwind Notepad](#zap-angular-tailwind-notepad)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
-  * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:camera: Screenshots](#camera-screenshots)
   * [:floppy_disk: Setup](#floppy_disk-setup)
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
@@ -29,32 +29,24 @@
 
 ## :signal_strength: Technologies
 
-**Backend**
-* [Angular framework v11](https://angular.io/)
-* [Spring project initialiser](https://start.spring.io/) & [Spring Java Tools v4](https://spring.io/tools)
-* [Apache Maven v3 build process management](https://maven.apache.org/what-is-maven.html)
-* [Postman API platform](https://www.postman.com/)
-* [MySQL](https://dev.mysql.com/) Workbench
-* [Java assertions library](https://assertj.github.io/doc/) including assertThat()
-
-**Frontend**
-* [STOMP](https://stomp-js.github.io/stomp-websocket/codo/extra/docs-src/Usage.md.html) Simple (or Streaming) Text Oriented Messaging Protocol. 
-* [STOMP over WebSocket client](https://www.npmjs.com/package/@stomp/stompjs)
+* [Angular framework v13](https://angular.io/)
+* [Angular Material v13](https://material.angular.io/)
+* [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
 
 ## :camera: Screenshots
 
-![Example screenshot](./img/java-angular.png)
+![Example screenshot](./img/angular.png)
 
 ## :floppy_disk: Setup
 
-* Backend: change directory to `/modules/backend` and run java code
-* Frontend: change directory to `/modules/frontend`, run `npm i` then run `ng serve`
+* `npm i` to install dependencies
+* `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
 
 ## :computer: Code Examples
 
 * tba
 
-```java
+```typescript
 
 ```
 
@@ -64,25 +56,16 @@
 
 ## :clipboard: Status & To-Do List
 
-* Status: Completed Part 2
-* To-Do: Create MySQL database then do Part 3 etc. Complete and test
+* Status: Working
+* To-Do: Add data store - database? navbar links
 
-## :clap: Inspiration - YouTube series by [Lilium Code](https://www.youtube.com/channel/UCHu8fdv3oIxYOVr9e92AxYQ)
+## :clap: Inspiration
 
-* [Spring Boot with Angular - Full Application - Part 1 - Setting up the project](https://www.youtube.com/watch?v=Z7L0BeAZE0Y&list=PLXy8DQl3058Mk_oZhph6cpXqBf99veSRT&index=1)
-* [Spring Boot with Angular - Full Application - Part 2 - Creating Vehicle Entity](https://www.youtube.com/watch?v=76tHjIyxABg&list=PLXy8DQl3058Mk_oZhph6cpXqBf99veSRT&index=2)
-* [ProgrammingKnowledge: How To Install MySQL on Windows 10](https://www.youtube.com/watch?v=WuBcTJnIuzo&t=0s)
-* [Spring Boot with Angular - Full Application - Part 3 - DTOs and converters](https://www.youtube.com/watch?v=RMqQfrDm8nE&list=PLXy8DQl3058Mk_oZhph6cpXqBf99veSRT&index=3)
-* [Spring Boot with Angular - Full Application - Part 4 - Creating Vehicle service](https://www.youtube.com/watch?v=JVrp6je-G9Q&list=PLXy8DQl3058Mk_oZhph6cpXqBf99veSRT&index=4)
-* [Spring Boot with Angular - Full Application - Part 5 - Creating Integration tests](https://www.youtube.com/watch?v=FHmsXO6H8eM&list=PLXy8DQl3058Mk_oZhph6cpXqBf99veSRT&index=5)
-* [Spring Boot with Angular - Full Application - Part 6 - Adding frontend components for Vehicle](https://www.youtube.com/watch?v=6ACYV_njhyg&list=PLXy8DQl3058Mk_oZhph6cpXqBf99veSRT&index=6)
-* [Spring Boot with Angular - Full Application - Part 7 - Using SockJS to update list of vehicles](https://www.youtube.com/watch?v=dh_mAphaBU4&list=PLXy8DQl3058Mk_oZhph6cpXqBf99veSRT&index=7)
-
-* [Generating DB Schema in 10 seconds with MySQL Workbench](https://www.youtube.com/watch?v=RbKEYDtkAJI)
+* tba
 
 ## :file_folder: License
 
-* N/A
+* This project is licensed under the terms of the MIT license.
 
 ## :envelope: Contact
 
