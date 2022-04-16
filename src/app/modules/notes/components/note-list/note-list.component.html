@@ -1,5 +1,5 @@
 <mat-accordion class="accordion" multi="true" *ngIf="notes.length > 0">
-  <mat-expansion-panel *ngFor="let note of notes">
+  <mat-expansion-panel *ngFor="let note of notes; trackBy: trackByFn">
     <mat-action-row>
       <button mat-button color="primary">EDIT</button>
       <button (click)="deleteEvent(note.id)" mat-button color="warning">
