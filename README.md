@@ -29,13 +29,13 @@
 
 ## :signal_strength: Technologies
 
-* [Angular framework v13](https://angular.io/)
-* [Angular Material v13](https://material.angular.io/)
+* [Angular framework v14](https://angular.io/)
+* [Angular Material v14](https://material.angular.io/)
 * [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
 
 ## :camera: Screenshots
 
-![Example screenshot](./img/angular.png)
+![Example screenshot](./imgs/list.png)
 
 ## :floppy_disk: Setup
 
