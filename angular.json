@@ -103,6 +103,5 @@
         }
       }
     }
-  },
-  "defaultProject": "angular-tailwind-notepad"
+  }
 }
