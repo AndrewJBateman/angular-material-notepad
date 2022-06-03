@@ -25,7 +25,10 @@
 
 ## :books: General info
 
-* to follow
+* Simple Angular Material form with error-checking.
+* Created notes are added to a Mat-Expansion Panel.
+* Refreshing display loses added data
+* Notes can be edited and deleted
 
 ## :signal_strength: Technologies
 
@@ -44,24 +47,34 @@
 
 ## :computer: Code Examples
 
-* tba
+* `notes-service.ts` function to add note to existing notes array. Uses `??` nullish coalescing operator to create an id basd on the array length or use a fallback id of 1 (array empty)
 
 ```typescript
-
+  addNote(title: string, description: string, body: string) {
+    const lastId: number = this.notes[this.notes.length - 1]?.id ?? 1;
+    const note: Note = {
+      id: lastId,
+      title: title,
+      description: description,
+      body: body,
+    };
+    this.notes.push(note);
+    this.notesUpdated.next([...this.notes]);
+  }
 ```
 
 ## :cool: Features
 
-* tba
+* Material components, use of nullish coalescing operator
 
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: Add data store - database? navbar links
+* To-Do: Add data store - database? navbar links.
 
 ## :clap: Inspiration
 
-* tba
+* [Angular Wiki: Double Question Marks(??) or Nullish coalescing Operator in Angular/Typescript](https://www.angularjswiki.com/angular/double-question-marks-or-nullish-coalescing-operator-in-angular-typescript/)
 
 ## :file_folder: License
 
