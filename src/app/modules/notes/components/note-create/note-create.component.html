@@ -1,5 +1,5 @@
 <form (submit)="onAddNote(noteForm)" #noteForm="ngForm">
-  <mat-card>
+  <mat-card appearance="outlined">
       <mat-form-field>
           <mat-label>Title:</mat-label>
           <input type="text" name="title" matInput ngModel #title="ngModel" required minlength="3" maxlength="35"/>
