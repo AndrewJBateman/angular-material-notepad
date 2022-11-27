@@ -27,7 +27,7 @@ export class NoteListComponent implements OnInit, OnDestroy {
 
   trackByFn = (index: number, note: any) => {
     return index;
-  }
+  };
 
   ngOnDestroy() {
     this.notesSub.unsubscribe();
