@@ -4,8 +4,9 @@
     "django-html": "html"
   },
   "django.snippets.exclude": [
-  
+
     "cms",
     "wagtail"
-  ]
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }
