@@ -8,7 +8,7 @@
     </mat-action-row>
     <mat-expansion-panel-header>
       <mat-panel-title>
-        <p>{{ note.title }}</p>
+        {{ note.title }}
       </mat-panel-title>
       <mat-panel-description>
         {{ note.description }}
@@ -24,6 +24,6 @@
     <p>{{ note.body }}</p>
   </mat-expansion-panel>
 </mat-accordion>
-<h3 class="info-text mat-body-2" *ngIf="notes.length <= 0">
+<h3 class="info-text" *ngIf="notes.length <= 0">
   No notes added yet
 </h3>
