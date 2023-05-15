@@ -28,12 +28,12 @@
 * Simple Angular Material form with error-checking.
 * Created notes are added to a Mat-Expansion Panel.
 * Refreshing display loses added data
-* Notes can be edited and deleted
+* Notes can be deleted (the edit button has no function linked to it so it does nothing)
 
 ## :signal_strength: Technologies
 
-* [Angular framework v15](https://angular.io/)
-* [Angular Material v15](https://material.angular.io/)
+* [Angular framework v16](https://angular.io/)
+* [Angular Material v16](https://material.angular.io/)
 * [Angular Material Icons](https://material.io/resources/icons/?style=baseline)
 
 ## :camera: Screenshots
@@ -82,4 +82,4 @@
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: `gomezbateman@yahoo.com`
