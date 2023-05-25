@@ -70,7 +70,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: Add data store - database? navbar links.
+* To-Do: Add data store - database? navbar links. Replace deprecated flex-layout
 
 ## :clap: Inspiration
 
